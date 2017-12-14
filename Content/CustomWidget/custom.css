@@ -1,0 +1,38 @@
+﻿    .title {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        font-family: Arial Black;
+        font-size: 16pt;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .dataTables_wrapper {
+        min-width: 600px;
+    }
+    .dataTable tr th {
+        color: #fff;
+    }
+    .dataTable tr th, .dataTable tr td {
+        padding: 5px 10px;
+    } 
+    .dataTable thead tr {
+        background-color: #8e8c8d;
+    }
+    .dataTable tbody tr:nth-child(odd) {
+        background-color: #fff;
+    }
+    .dataTable tbody tr:nth-child(even) {
+        background-color: #f4f5f5;
+    }
+    table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+        opacity: 1;
+        color: #fff;
+        bottom: 0px;
+    }
+    .dataTables_wrapper > .row {
+        margin: 0;
+    }
+    .dataTables_wrapper > .row > .col-sm-12 {
+        padding: 0;
+    }
